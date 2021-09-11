@@ -1,6 +1,6 @@
-package br.com.devsuperior4.sales.domain.sale;
+package br.com.devsuperior4.entity.sale;
 
-import br.com.devsuperior4.sales.domain.seller.Seller;
+import br.com.devsuperior4.entity.seller.Seller;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

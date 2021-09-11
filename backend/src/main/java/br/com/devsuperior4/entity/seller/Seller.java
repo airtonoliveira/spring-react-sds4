@@ -1,12 +1,8 @@
-package br.com.devsuperior4.sales.domain.seller;
+package br.com.devsuperior4.entity.seller;
 
-import br.com.devsuperior4.sales.domain.sale.Sale;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -18,8 +14,5 @@ public class Seller {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
     private String name;
-
-    @OneToMany(mappedBy = "seller")
-    private List<Sale> sales = new ArrayList<>();
 
 }
