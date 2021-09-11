@@ -1,6 +1,6 @@
 package br.com.devsuperior4.dto;
 
-import br.com.devsuperior4.entity.seller.Seller;
+import br.com.devsuperior4.entity.Seller;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

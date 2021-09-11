@@ -1,6 +1,5 @@
-package br.com.devsuperior4.entity.sale;
+package br.com.devsuperior4.entity;
 
-import br.com.devsuperior4.entity.seller.Seller;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,7 +9,7 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = " tb_sales")
+@Table(name = "tb_sales")
 public class Sale {
 
     @Id

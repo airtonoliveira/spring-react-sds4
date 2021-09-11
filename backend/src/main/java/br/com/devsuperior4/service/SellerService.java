@@ -1,7 +1,7 @@
 package br.com.devsuperior4.service;
 
 import br.com.devsuperior4.dto.SellerDTO;
-import br.com.devsuperior4.entity.seller.Seller;
+import br.com.devsuperior4.entity.Seller;
 import br.com.devsuperior4.repositories.SellerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
